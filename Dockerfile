@@ -30,6 +30,9 @@ RUN export DEBIAN_FRONTEND=noninteractive \
   && apt-get -qq update \
   && apt-get -y --no-install-recommends install \
       libgles2-mesa \
+      ca-certificates \
+      rsync \
+      git \
       libegl1 \
       xvfb \
       xauth \
@@ -38,6 +41,9 @@ RUN export DEBIAN_FRONTEND=noninteractive \
   && rm -rf /var/lib/apt/lists/*
 
 COPY --from=builder /usr/src/app /app
+
+RUN git clone https://github.com/cartologic/openmaptiles-fonts
+RUN rsync -av openmaptiles-fonts/fonts /app/node_modules/tileserver-gl-styles/fonts
 
 ENV NODE_ENV="production"
 ENV CHOKIDAR_USEPOLLING=1
