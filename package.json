@@ -13,6 +13,7 @@
     "node": ">=10 <11"
   },
   "scripts": {
+    "postinstall": "patch-package",
     "test": "mocha test/**.js --timeout 10000",
     "docker": "docker build -f Dockerfile . && docker run --rm -i -p 8080:80 $(docker build -q .)"
   },
