@@ -15,7 +15,7 @@ Getting started
                           ignored if the configuration file is also specified
     -c, --config <file>   Configuration file [config.json]
     -b, --bind <address>  Bind address
-    -p, --port <port>     Port [8080]
+    -p, --port <port>     Port [7031]
     -C|--no-cors          Disable Cross-origin resource sharing headers
     -u|--public_url <url> Enable exposing the server on subpaths, not necessarily the root of the domain
     -V, --verbose         More verbose output

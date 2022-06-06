@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/cartologic/Downloads/tileserver-gl'
+make: Leaving directory '/home/cartologic/Downloads/tileserver-gl'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

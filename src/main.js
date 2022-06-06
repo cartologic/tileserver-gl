@@ -36,8 +36,8 @@ const opts = require('commander')
   )
   .option(
     '-p, --port <port>',
-    'Port [8080]',
-    8080,
+    'Port [7031]',
+    7031,
     parseInt
   )
   .option(
@@ -157,9 +157,9 @@ const startWithMBTiles = (mbtilesFile) => {
       } else {
         console.log(`WARN: MBTiles not in "openmaptiles" format. Serving raw data only...`);
         config['data'][(info.id || 'mbtiles')
-                           .replace(/\//g, '_')
-                           .replace(/:/g, '_')
-                           .replace(/\?/g, '_')] = {
+          .replace(/\//g, '_')
+          .replace(/:/g, '_')
+          .replace(/\?/g, '_')] = {
           "mbtiles": path.basename(mbtilesFile)
         };
       }

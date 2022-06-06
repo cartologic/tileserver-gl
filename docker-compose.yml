@@ -12,7 +12,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "7031:80"
+      - "7031:7021"
     restart: always
     volumes:
       # - ".:/app"

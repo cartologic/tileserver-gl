@@ -1,0 +1,293 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Jun  6 16:50:47 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-27aa5bee-986b-4518-9918-5243dd3edeaa.sock
+# environment
+VSCODE_CWD = /home/cartologic
+# environment
+WINDOWPATH = 2
+# environment
+LIBVIRT_DEFAULT_URI = qemu:///system
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/cartologic/Downloads/tileserver-gl
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+VIRTUALENVWRAPPER_PROJECT_FILENAME = .project
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/home/cartologic/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/cartologic/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/cartologic/Downloads/tileserver-gl
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile
+MAKEFILE_LIST := 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 39008
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/cartologic:@/tmp/.ICE-unix/3049,unix/cartologic:/tmp/.ICE-unix/3049
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VIRTUALENVWRAPPER_HOOK_DIR = /home/cartologic/venvs/
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/cartologic/.local/bin:/home/cartologic/.cargo/bin:/home/cartologic/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cartologic/.dotnet/tools:/home/cartologic/.dotnet/tools
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+INVOCATION_ID = dcdb6272d24e4c909e505338e7f8e7a8
+# environment
+VIRTUALENVWRAPPER_SCRIPT = /usr/local/bin/virtualenvwrapper.sh
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = cartologic
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+WORKON_HOME = /home/cartologic/venvs/
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = cartologic
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile
+.DEFAULT_GOAL := 
+# environment
+SYSTEMD_EXEC_PID = 3072
+# environment
+DISPLAY = :1
+# environment
+USER = cartologic
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+MANAGERPID = 2482
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 39008
+# environment
+_ = /usr/share/code/code
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+JOURNAL_STREAM = 8:51226
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/cartologic
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-f5510734-1.67.2-main.sock
+# environment
+IM_CONFIG_PHASE = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+VIRTUALENVWRAPPER_WORKON_CD = 1
+# default
+SUFFIXES := 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = ubuntu
+# variable set hash-table stats:
+# Load=104/1024=10%, Rehash=0, Collisions=3/131=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66306, inode 4460836): 27 files, no impossibilities.
+
+# 27 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 35 / storage = 370 B / avg = 10 B
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+# current buf: size = 8162 B / used = 370 B / count = 35 / avg = 10 B
+
+# strcache performance: lookups = 38 / hit rate = 7%
+# hash-table stats:
+# Load=35/8192=0%, Rehash=0, Collisions=0/38=0%
+# Finished Make data base on Mon Jun  6 16:50:47 2022
+
+ 

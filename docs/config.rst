@@ -18,8 +18,8 @@ Example:
         "mbtiles": ""
       },
       "domains": [
-        "localhost:8080",
-        "127.0.0.1:8080"
+        "localhost:7031",
+        "127.0.0.1:7031"
       ],
       "formatQuality": {
         "jpeg": 80,
