@@ -1,9 +1,8 @@
 version: '3'
 volumes:
-  data:
+  # data:
   # styles:
   fonts:
-  # node_modules:
 
 
 services:
@@ -15,9 +14,7 @@ services:
       - "7031:7021"
     restart: always
     volumes:
-      # - ".:/app"
-      # - node_modules:/app/node_modules
-      - data:/data
+      # - data:/data
       - ./data:/data
       # - styles:/app/node_modules/tileserver-gl-styles/styles
       - ./styles:/app/node_modules/tileserver-gl-styles/styles
